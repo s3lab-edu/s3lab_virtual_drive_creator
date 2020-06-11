@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VnPlib.VirtualDriveCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VnPlib.VirtualDriveCreatorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VnPlib.VirtualDriveCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VnPlib.VirtualDriveCreatorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VnPlibVirtualDriveCreator.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VnPlibVirtualDriveCreator.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\VnPlib.VirtualDriveCreator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\b_available.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\b-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\a-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\c-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\d-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\e-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\f-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\g-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\h-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\i-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\j-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\k-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\l-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\m-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\n-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\o-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\p-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\q-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\r-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\s-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\t-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\u-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\v-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\w-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\x-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\y-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\z-active.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\a-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\b-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\c-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\d-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\e-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\f-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\g-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\h-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\i-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\j-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\k-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\l-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\m-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\n-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\o-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\p-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\q-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\r-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\s-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\t-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\u-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\v-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\w-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\x-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\y-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\z-deactive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
