@@ -247,7 +247,7 @@ BOOL CVnPlibVirtualDriveCreatorDlg::OnInitDialog()
 	mDriveList.SetImageList(&mImageList, LVSIL_SMALL);
 	mDriveList.SetImageList(&mImageList, LVSIL_NORMAL);
 
-	psz24Characters = L"abcdefjhijklmnopqrstuvwxyz";
+	psz24Characters = L"abcdefghijklmnopqrstuvwxyz";
 
 	for (int i = 0; i < _tcslen(psz24Characters); i++) {
 		TCHAR szDriveLetter[3];
@@ -333,7 +333,7 @@ void CVnPlibVirtualDriveCreatorDlg::OnBnClickedButtonCreate()
 	}
 
 	CString result;
-	BOOL bResult = RunSubSTProcess((L"subst " + oDriveArrayWithoutSlash.GetAt(index) + L" " + sMappedPath), result);
+	bool bResult = RunSubSTProcess((L"subst " + oDriveArrayWithoutSlash.GetAt(index) + L" " + sMappedPath), result);
 
 	/*
 	TCHAR* pszDriveLetter, * pszOptions;
@@ -391,7 +391,7 @@ void CVnPlibVirtualDriveCreatorDlg::OnBnClickedButtonDelete()
 	//}
 	
 	CString result;
-	BOOL bResult = RunSubSTProcess((L"subst " + oDriveArrayWithoutSlash.GetAt(index) + L" /d"), result);
+	bool bResult = RunSubSTProcess((L"subst " + oDriveArrayWithoutSlash.GetAt(index) + L" /d"), result);
 
 	if (bResult == true) {
 		mDelete.EnableWindow(false);
